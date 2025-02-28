@@ -7,11 +7,15 @@
     font-style: normal;
 }
 
+body {
+    background-color: #E2F2FD;
+}
+
 .fejlec {
     min-width: 350px;
     width: 100%;
     height: 40vh;
-    background-image: url(../IMG/Kek.jpg);
+    background-image: url(../IMG/sotkek.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
