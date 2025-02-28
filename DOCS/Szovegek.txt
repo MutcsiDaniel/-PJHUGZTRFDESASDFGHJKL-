@@ -47,3 +47,64 @@ Malta, lidl parkoló
 
 Auswitch
 
+---------------------------------------------------------------------------------------------------------------------------------------------
+mellék:
+A második épület az adminisztratív és logisztikai feladatokat látja el. Itt működik a laboratórium ügyfélszolgálata, ahol a páciensek időpontot foglalhatnak, információt kérhetnek a vizsgálatokról, és átvehetik az eredményeiket. Az épületben találhatóak az irodák, ahol az adminisztratív munkatársak dolgoznak, valamint a raktárhelyiségek, ahol a labor működéséhez szükséges vegyszereket, eszközöket és egyéb anyagokat tárolják.
+
+
+Fő:
+A főépület a laboratórium központja, ahol a diagnosztikai és kutatási munkák zajlanak. Itt találhatók a modern felszereltségű vizsgálószobák, a mikrobiológiai, kémiai és genetikai laborok, valamint a kutatói irodák. Az épületben külön mintavételi helyiségek is rendelkezésre állnak a páciensek számára, ahol vér-, vizelet- és egyéb biológiai mintákat vesznek. Az eredményeket itt elemzik és dolgozzák fel a legmodernebb műszerekkel.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Csomagok 1. :
+
+Alap Egészségügyi Szűrőcsomag
+Tartalma: Teljes vérkép, vércukorszint, máj- és vesefunkciós vizsgálatok, vizeletvizsgálat.
+Ajánlott: Általános egészségügyi ellenőrzéshez és megelőzéshez.
+
+Genetikai Elemző Csomag
+Tartalma: Örökletes betegségek szűrése, allergia- és intoleranciavizsgálat, genetikai hajlam elemzés.
+Ajánlott: Családi öröklődésű betegségek vizsgálatához és személyre szabott egészségtervezéshez.
+
+Fertőzés Diagnosztikai Csomag
+Tartalma: Baktérium- és víruskimutatás (pl. influenza, COVID-19, HPV), torok- és vizelettenyésztés, CRP-szint mérés.
+Ajánlott: Fertőző betegségek azonosításához és célzott kezeléshez.
+
+Sportolói Teljesítménycsomag
+Tartalma: Vérkép- és elektrolitvizsgálat, izom- és májenzimek, hormonprofil, laktátküszöb-elemzés.
+Ajánlott: Sportolók és aktív életmódot folytatók számára.
+
+Élelmiszerbiztonsági Csomag
+Tartalma: Élelmiszerminták mikrobiológiai és kémiai elemzése, baktérium- és toxinellenőrzés, allergénvizsgálat.
+Ajánlott: Élelmiszeripari vállalkozásoknak és éttermeknek.
+
+Környezeti Vizsgálati Csomag
+Tartalma: Ivóvíz, talaj és levegőminták szennyeződésvizsgálata (pl. nehézfémek, vegyi anyagok, baktériumok).
+Ajánlott: Környezetvédelmi ellenőrzésekhez és lakossági tájékoztatáshoz.
+
+csomagok 2. :
+
+Ügyfélszolgálati Komfortcsomag
+Tartalma: Online időpontfoglalás, gyorsított eredménykiadás, személyes konzultáció laboreredményekről.
+Ajánlott: Pácienseknek, akik gyors és kényelmes ügyintézést szeretnének.
+
+Céges Partneri Csomag
+Tartalma: Rendszeres munkavállalói szűrések, egészségügyi tanácsadás, laborvizsgálati kedvezmények.
+Ajánlott: Vállalatoknak, amelyek biztosítani szeretnék dolgozóik egészségét.
+
+Mintaszállítási és Logisztikai Csomag
+Tartalma: Biológiai minták szállítása szakszerű körülmények között, hőmérséklet-szabályozott tárolás.
+Ajánlott: Egészségügyi intézmények és kutatóközpontok számára.
+
+Digitális Laborcsomag
+Tartalma: Online laboreredmény-lekérdezés, digitális adatkezelés, EESZT-integráció.
+Ajánlott: Páciensek és egészségügyi szolgáltatók számára.
+
+Minőségbiztosítási Csomag
+Tartalma: Belső ellenőrzések, laboratóriumi szabványok betartásának nyomon követése, ISO-tanúsítványok felügyelete.
+Ajánlott: Magánlaborok és egészségügyi szolgáltatók számára.
+
+Üzemeltetési és Karbantartási Csomag
+Tartalma: Laborberendezések karbantartása, eszközök rendszeres kalibrálása, biztonsági ellenőrzések.
+Ajánlott: Magánlaborok és kutatóintézetek számára.
