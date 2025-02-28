@@ -83,6 +83,14 @@ Környezeti Vizsgálati Csomag
 Tartalma: Ivóvíz, talaj és levegőminták szennyeződésvizsgálata (pl. nehézfémek, vegyi anyagok, baktériumok).
 Ajánlott: Környezetvédelmi ellenőrzésekhez és lakossági tájékoztatáshoz.
 
+Alap Egészségügyi Szűrőcsomag – 25 000 Ft
+Genetikai Elemző Csomag – 85 000 Ft
+Fertőzés Diagnosztikai Csomag – 30 000 Ft
+Sportolói Teljesítménycsomag – 40 000 Ft
+Élelmiszerbiztonsági Csomag – 50 000 Ft
+Környezeti Vizsgálati Csomag – 60 000 Ft
+
+
 csomagok 2. :
 
 Ügyfélszolgálati Komfortcsomag
@@ -108,3 +116,18 @@ Ajánlott: Magánlaborok és egészségügyi szolgáltatók számára.
 Üzemeltetési és Karbantartási Csomag
 Tartalma: Laborberendezések karbantartása, eszközök rendszeres kalibrálása, biztonsági ellenőrzések.
 Ajánlott: Magánlaborok és kutatóintézetek számára.
+
+Ügyfélszolgálati Komfortcsomag – 10 000 Ft
+Céges Partneri Csomag – Egyedi ajánlat alapján
+Mintaszállítási és Logisztikai Csomag – 15 000 Ft / szállítás
+Digitális Laborcsomag – 5 000 Ft / év
+Minőségbiztosítási Csomag – 100 000 Ft / év
+----------------------------------------------------------------------------------------------------------------------
+
+Orvosok 1. :
+
+Dr. Kovács Bence több mint 15 éves tapasztalattal rendelkezik a laboratóriumi diagnosztika területén. Szakterülete a vérvizsgálatok, mikrobiológiai elemzések és genetikai szűrések. Több hazai és nemzetközi kutatásban vett részt, különös figyelmet fordítva a fertőző betegségek laboratóriumi kimutatására. Célja, hogy a legmodernebb technológiákat alkalmazva gyors és pontos eredményeket biztosítson páciensei számára.
+
+2. :
+Dr. Nagy Márk elismert klinikai genetikus, aki a molekuláris diagnosztika és az örökletes betegségek szakértője. Több mint egy évtizede dolgozik a genetikai kutatások és precíziós orvoslás területén. Specialitása a genetikai hajlamvizsgálatok, DNS-elemzések és személyre szabott orvosi programok fejlesztése. Szenvedélye az innováció és az új módszerek bevezetése, amelyek segítenek a pontosabb diagnózisok felállításában és a betegek életminőségének javításában.
+-------------------------------------------------------------------------------------------------------------------------------------
