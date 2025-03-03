@@ -111,6 +111,16 @@ body {
     text-align: center;
 }
 
+.szovegek {
+    background-color: #BBDEFB;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.kisSzov {
+    width: 50vw;
+}
+
 .img-fluid {
     margin-top: 5vh;
     border-radius: 10px;
