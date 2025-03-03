@@ -93,9 +93,25 @@ body {
     font-weight: 600;
 }
 
+/* .col-lg-12 {
+    border: 1px solid red;
+} */    
+
 .kep {
-    height: 40vh;
-    width: 30vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+    margin-top: 5vh;
+    border-radius: 10px;
+}
+
+.kepsz {
+    text-align: center;
+}
+
+.img-fluid {
     margin-top: 5vh;
     border-radius: 10px;
 }
