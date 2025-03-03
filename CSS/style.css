@@ -7,11 +7,15 @@
     font-style: normal;
 }
 
+body {
+    background-color: #E2F2FD;
+}
+
 .fejlec {
     min-width: 350px;
     width: 100%;
     height: 40vh;
-    background-image: url(../IMG/Kek.jpg);
+    background-image: url(../IMG/Fazsomkek-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -68,4 +72,30 @@
     font-weight: 900;
 }
 
-  
+.alcim {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 4vh;
+    font-variant: small-caps;   
+}
+
+.bemutatkozas {
+    width: fit-content;
+    margin-top: 5vh;
+    background-color: #BBDEFB;
+    padding: 4vh;
+    border-radius: 10px;
+}
+
+.bemutatkozoSzoveg {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.kep {
+    height: 40vh;
+    width: 30vw;
+    margin-top: 5vh;
+    border-radius: 10px;
+}
