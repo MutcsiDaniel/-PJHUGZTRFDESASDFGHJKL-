@@ -73,6 +73,7 @@ body {
 }
 
 .alcim {
+    margin-left: 2vw;
     font-size: 40px;
     font-weight: 700;
     margin-top: 4vh;
@@ -114,14 +115,62 @@ body {
 .szovegek {
     background-color: #BBDEFB;
     border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vh;
+    height: fit-content;
     width: fit-content;
 }
 
+.szovegek2 {
+    background-color: #BBDEFB;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vh;
+    height: fit-content;
+    width: 20vw;
+    display: none;
+    z-index: 1;
+}
+
 .kisSzov {
+    font-weight: 600;
     width: 50vw;
+    height: fit-content;
+}
+
+.kisSzov2 {
+    font-weight: 600;
+    width: 50vw;
+    height: fit-content;
+    width: fit-content;
 }
 
 .img-fluid {
     margin-top: 5vh;
     border-radius: 10px;
 }
+
+.dropbtn {
+    background-color: transparent;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#dropdown1 {
+    transition: all 0.3s;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+}
+
+.show {display:block;} 
