@@ -137,7 +137,7 @@ body {
     margin-right: auto;
     padding: 0 2vh;
     width: 20vw;
-    max-height: 0;
+    max-height: 150  ;
     overflow: hidden;
     opacity: 0;
     visibility: hidden;
@@ -157,6 +157,10 @@ body {
     transition: transform 0.5s ease-in-out;
 }
 
+.icon2 {
+    width: 32px;
+    height: 32px;
+}
 
 .forog {
     transform: rotate(180deg);
@@ -192,6 +196,90 @@ body {
 .footer {
     margin-top: 10px;
     background-color: #0D47A1;
-    height: 150px;
+    height: 200px;
+    padding: 2vh;
+    width: 100%;
 }
 
+.lablec {
+    display: flex;
+
+}
+
+.ikonok {
+    margin-top: 2vh;
+}
+
+.szekcio {
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+}
+
+.ikonsz {
+    margin-left: 0.5vw;
+    margin-top: 0.5vh;
+    color: white;
+}
+
+.copy {
+    color: white;
+    text-align: center;
+}
+
+.gonb {
+    text-decoration: none;
+}
+
+.idopont {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1976D2;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 1vh;
+    color: white;
+    margin-bottom: 5px;
+    transition: 0.5s all ease;
+}
+
+.idopont:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #1976D2;
+    border: 1px solid #1976D2;
+
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    width: 100%;
+}
+
+#email {
+    padding: 1vh;
+    width: 10vw;
+    border: none;
+    margin-right: 0.5vw;
+}
+
+#email:focus {
+    outline: none;
+}
+
+#submit {
+    margin-bottom: 0;
+    margin-top: 5px;
+    background-color: #1976D2;
+    border: 1px solid transparent;
+    font-size: 15px;
+    padding: 1vh;
+    color: white;
+    margin-bottom: 5px;
+    transition: 0.5s all ease;
+}
