@@ -7,8 +7,14 @@
     font-style: normal;
 }
 
-body {
+html, body {
     background-color: #E2F2FD;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none; 
 }
 
 .fejlec {
@@ -98,8 +104,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 400px;
-    width: 400px;
+    height: 45vh;
+    width: 350px;
     margin-top: 5vh;
     border-radius: 10px;
 }
@@ -117,11 +123,16 @@ body {
     padding: 0 2vh;
     height: fit-content;
     width: fit-content;
-    overflow: hidden;
+    overflow: scroll;
+    scrollbar-width: none;
     opacity: 0;
     visibility: hidden;
     transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out, padding 0.5s ease-in-out, visibility 0.5s;
 }
+
+.szovegek::-webkit-scrollbar,.szovegek2::-webkit-scrollbar {
+    display: none; 
+  }
 
 .szovegek.show {
     max-height: 500px; 
@@ -137,8 +148,10 @@ body {
     margin-right: auto;
     padding: 0 2vh;
     width: 20vw;
-    max-height: 150  ;
-    overflow: hidden;
+    max-height: 150px;
+    min-width: 170px;
+    overflow: scroll;
+    scrollbar-width: none;
     opacity: 0;
     visibility: hidden;
     transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out, padding 0.5s ease-in-out, visibility 0.5s;
