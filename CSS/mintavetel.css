@@ -11,6 +11,7 @@ html, body {
     background-color: #E2F2FD;
     overflow: scroll;
     scrollbar-width: none;
+    height: 100%;
 }
 
 html::-webkit-scrollbar, body::-webkit-scrollbar {
@@ -296,7 +297,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     transition: 0.5s all ease;
 }
 
-.unselectable {
+p {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -310,3 +311,49 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     margin-left: 10px;
     color: white;
 }   
+
+.terkepek {
+    display: flex;
+    gap: 10vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.terkephelye {
+    background-color: green;
+    height: 35vh;
+    width: 40vw;
+}
+
+.terkepszovegek {
+    display: flex;
+    justify-content: center;
+    gap: 15vw;
+}
+
+.terkepsz {
+    width: 35vw;
+    text-align: justify;
+    background-color: #BBDEFB;
+    padding: 2vh;
+    border-radius: 10px;
+}
+
+.terkepkisszovz {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.terkepkisszovz>p {
+    margin-top: 1vh;
+    width: 40vw;
+    font-size: 15px;
+    text-align: center;
+}
+
+.idopontok {
+    display: flex;
+    justify-content: center;
+    gap: 40vw;
+}

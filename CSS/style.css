@@ -11,6 +11,7 @@ html, body {
     background-color: #E2F2FD;
     overflow: scroll;
     scrollbar-width: none;
+    height: 100%;
 }
 
 html::-webkit-scrollbar, body::-webkit-scrollbar {
