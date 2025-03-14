@@ -8,10 +8,18 @@
 }
 
 html, body {
+    font-size: 100%;
     background-color: #E2F2FD;
     overflow: scroll;
     scrollbar-width: none;
     height: 100%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
 }
 
 html::-webkit-scrollbar, body::-webkit-scrollbar {
@@ -85,6 +93,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     font-weight: 700;
     margin-top: 4vh;
     font-variant: small-caps;   
+    margin-bottom: 4vh;
 }
 
 .bemutatkozas {
@@ -255,7 +264,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     font-size: 20px;
     padding: 1vh;
     color: white;
-    margin-bottom: 5px;
     transition: 0.5s all ease;
 }
 
@@ -310,4 +318,62 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     margin-top: 10px;
     margin-left: 10px;
     color: white;
-}   
+}
+
+.kartyak {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+    .kartyak {
+        flex-direction: column;
+    }
+    .kartya {
+        min-width: fit-content;
+    }
+
+    .idopont {
+        height: 5vh;
+        font-size: 15px;
+    }
+}
+
+.kartya {
+    border: 1px solid black;
+    height: fit-content;
+    background-color: #BBDEFB;
+    width: 20vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.kartyacim {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.kartyaszov {
+    padding: 0.5vh;
+    text-align: center;
+}
+
+.ar {
+    font-size: 1.3rem;
+}
+
+.kartyaalja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #90CAF9;
+    border: 1px solid #90CAF9;
+    height: 6vh;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
