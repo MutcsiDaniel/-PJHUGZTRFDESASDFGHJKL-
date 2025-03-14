@@ -356,4 +356,19 @@ p {
     display: flex;
     justify-content: center;
     gap: 40vw;
+    margin-top: 10px;
+}
+
+
+.terkephelye2 {
+    background-color: green;
+    height: 50vh;
+    width: 40vw;
+    border-radius: 20px;
+}
+
+.epuletek {
+    width: 40vw;
+    height: 50vh;
+    border-radius: 20px;
 }
