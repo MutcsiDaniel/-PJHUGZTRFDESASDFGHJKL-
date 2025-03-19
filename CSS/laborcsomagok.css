@@ -320,14 +320,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     color: white;
 }
 
-.kartyak {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5vw;
-    margin-bottom: 10px;
-}
-
 @media (max-width: 500px) {
     .kartyak {
         flex-direction: column;
@@ -342,14 +334,26 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     }
 }
 
+@media (max-width: 1024px) {
+
+    .kartyacim {
+        font-size: 20rem;
+    }
+
+    .idopont {
+        height: 5vh;
+        font-size: 15px;
+    }
+}
+
 .kartya {
     border: 1px solid black;
-    height: fit-content;
+    height: 35vh;
     background-color: #BBDEFB;
-    width: 20vw;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .kartyacim {
