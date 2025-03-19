@@ -18,6 +18,12 @@ A laborunkban ivóvíz- és talajminták vizsgálatát végezzük, hogy meghatá
 Gyógyszerek és vegyületek elemzése
 Farmakológiai laborunkban gyógyszerminták hatóanyagtartalmát és tisztaságát ellenőrizzük, hogy biztosítsuk a termékek minőségét és biztonságát.
 
+1. Hormon- és enzimvizsgálatok
+Laborunkban részletes hormonális és enzimatikus elemzéseket végzünk, amelyek segítenek az endokrin rendszer működésének feltérképezésében, például pajzsmirigy-, mellékvese- és reproduktív hormonok szintjének meghatározásában.
+
+2. Immunológiai tesztek
+Speciális immunológiai vizsgálatokkal mérjük a szervezet védekezőképességét, beleértve az autoimmun betegségek és gyulladásos folyamatok felismerését, valamint az immunrendszer válaszainak elemzését.
+
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
