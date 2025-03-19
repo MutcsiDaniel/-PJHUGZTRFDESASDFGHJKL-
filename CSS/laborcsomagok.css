@@ -258,7 +258,8 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: #1976D2;
+    background: rgb(13,71,161);
+    background: radial-gradient(circle, rgba(13,71,161,1) 0%, rgba(33,150,243,1) 100%);
     border: 1px solid transparent;
     border-radius: 30px;
     font-size: 20px;
@@ -321,9 +322,9 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 }
 
 .kartya {
-    border: 1px solid black;
     height: 350px;
-    background-color: #BBDEFB;
+    background: rgb(187,222,251);
+    background: linear-gradient(0deg, rgba(187,222,251,1) 0%, rgba(144,202,249,1) 100%);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -350,8 +351,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #90CAF9;
-    border: 1px solid #90CAF9;
+    background-color: transparent;
     height: 70px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
