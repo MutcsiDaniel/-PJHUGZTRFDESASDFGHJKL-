@@ -319,6 +319,11 @@ p {
     justify-content: center;
 }
 
+iframe {
+    height: 35vh;
+    width: 40vw;
+}
+
 .terkephelye {
     background-color: green;
     height: 35vh;
