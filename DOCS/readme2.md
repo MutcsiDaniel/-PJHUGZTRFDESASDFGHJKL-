@@ -24,3 +24,4 @@ ChatGPT
 Azért
 safasfnjy fasza
 
+asd
