@@ -20,6 +20,11 @@ html, body {
     user-select: none;
 }
 
+body {
+    background: rgb(196,246,252);
+    background: radial-gradient(circle, rgba(196,246,252,1) 61%, rgba(146,207,246,1) 100%);
+}
+
 html::-webkit-scrollbar, body::-webkit-scrollbar {
   display: none; 
 }
@@ -389,7 +394,7 @@ p {
     border: 5px solid #42A5F5;
     height: 60vh;
     border-style: dotted;
-    align-items: center;
+    justify-content: space-between;
     flex-direction: column;
     margin-bottom: 20px;
 }
@@ -416,6 +421,10 @@ p {
     font-size: 20px;
     color: #42A5F5;
     height: 28vh;
+}
+
+.kartyaalja {
+    margin-bottom: 10px;
 }
 
 @media (max-width: 500px) {

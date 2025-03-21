@@ -22,6 +22,11 @@ html, body {
 
 }
 
+body {
+    background: rgb(196,246,252);
+    background: radial-gradient(circle, rgba(196,246,252,1) 61%, rgba(146,207,246,1) 100%);
+}
+
 html::-webkit-scrollbar, body::-webkit-scrollbar {
   display: none; 
 }
@@ -328,6 +333,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .kartyacim {

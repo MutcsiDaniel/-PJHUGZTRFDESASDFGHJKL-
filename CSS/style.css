@@ -14,6 +14,11 @@ html, body {
     height: 100%;
 }
 
+body {
+    background: rgb(196,246,252);
+    background: radial-gradient(circle, rgba(196,246,252,1) 61%, rgba(146,207,246,1) 100%);
+}
+
 html::-webkit-scrollbar, body::-webkit-scrollbar {
   display: none; 
 }
@@ -105,7 +110,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     margin-left: auto;
     margin-right: auto;
     height: 45vh;
-    width: 350px;
     margin-top: 5vh;
     border-radius: 10px;
 }
@@ -142,6 +146,8 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 }
 
 .szovegek2 {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #BBDEFB;
     border-radius: 10px;
     margin-left: auto;
@@ -240,6 +246,10 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     text-align: center;
 }
 
+.asder {
+    margin-top: 10px;
+}
+
 .gonb {
     text-decoration: none;
 }
@@ -310,3 +320,4 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     margin-left: 10px;
     color: white;
 }   
+
