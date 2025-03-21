@@ -258,22 +258,21 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background: rgb(13,71,161);
-    background: radial-gradient(circle, rgba(13,71,161,1) 0%, rgba(33,150,243,1) 100%);
-    border: 1px solid transparent;
+    background-color: #1976D2;
+    border: none;
     border-radius: 30px;
     font-size: 20px;
     padding: 1vh;
     color: white;
-    transition: 0.5s all ease;
+    border: 1px solid transparent;
+    transition: all 0.5s ease;
 }
 
 .idopont:hover {
-    text-decoration: none;
     background-color: transparent;
+    text-decoration: none;
     color: #1976D2;
     border: 1px solid #1976D2;
-
 }
 
 .email {
