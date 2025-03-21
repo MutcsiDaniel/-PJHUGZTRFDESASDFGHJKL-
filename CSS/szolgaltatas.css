@@ -374,8 +374,9 @@ p {
 }
 
 .icon {
-    width: 128px;
-    height: 128px;
+    width: 64px;
+    height: 64px;
+    margin-top: 10px;
 }
 
 .icon2 {
@@ -390,11 +391,12 @@ p {
 }
 
 .kartya {
+    position: relative;
     display: flex;
     border: 5px solid #42A5F5;
-    height: 60vh;
+    height: 600px;
+    padding: 10px;
     border-style: dotted;
-    justify-content: space-between;
     flex-direction: column;
     margin-bottom: 20px;
 }
@@ -410,6 +412,7 @@ p {
 }
 
 .kartyacim {
+    padding: 10px;
     font-size: 30px;
     text-align: center;
     color: #42A5F5;
@@ -423,12 +426,26 @@ p {
     height: 28vh;
 }
 
-.kartyaalja {
-    margin-bottom: 10px;
+a {
+    border: 1px solid red;
+    width: 100%;
 }
 
-@media (max-width: 500px) {
+.kartyaalja {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1500px) {
     .kartyaszov {
-        height: 24vh;
+        font-size: 16px;
     }
+    .kartyacim {
+        font-size: 28px;
+    }
+
 }
