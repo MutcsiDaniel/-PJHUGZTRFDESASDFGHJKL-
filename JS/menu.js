@@ -1,20 +1,38 @@
 function toggleSzoveg() {
-  var szovegElem = document.getElementById("dropdown1");
+  var dropdown = document.getElementById("dropdown1");
+  var icon = document.getElementById("icon1");
 
-  if (szovegElem.style.maxHeight === "0px" || szovegElem.style.maxHeight === "") {
-      szovegElem.style.maxHeight = szovegElem.scrollHeight + "px";
-      szovegElem.style.padding = "10px";
+  if (dropdown.classList.contains("show")) {
+      dropdown.classList.remove("show");
+      icon.classList.remove("forog");
   } else {
-      szovegElem.style.maxHeight = "0px";
-      szovegElem.style.padding = "0 10px";
+      dropdown.classList.add("show");
+      icon.classList.add("forog");
   }
 }
 
 function toggleSzoveg2() {
-  var szovegElem = document.getElementById("dropdown2");
-  if (szovegElem.style.display === "none") {
-      szovegElem.style.display = "block";
+  var dropdown = document.getElementById("dropdown2");
+  var icon = document.getElementById("icon2");
+
+  if (dropdown.classList.contains("show")) {
+      dropdown.classList.remove("show");
+      icon.classList.remove("forog");
   } else {
-      szovegElem.style.display = "none";
+      dropdown.classList.add("show");
+      icon.classList.add("forog");
+  }
+}
+
+function toggleSzoveg3() {
+  var dropdown = document.getElementById("dropdown3");
+  var icon = document.getElementById("icon3");
+
+  if (dropdown.classList.contains("show")) {
+      dropdown.classList.remove("show");
+      icon.classList.remove("forog");
+  } else {
+      dropdown.classList.add("show");
+      icon.classList.add("forog");
   }
 }

@@ -27,7 +27,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     min-width: 350px;
     width: 100%;
     height: 40vh;
-    background-image: url(../IMG/Fazsomkek-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -36,6 +35,8 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     padding: 5vh;
     width: 100%;
     display: flex; 
+    align-items: center;
+    background-color: #1976D2;
 }
 
 .fejlecelem {
@@ -110,6 +111,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     margin-left: auto;
     margin-right: auto;
     height: 45vh;
+    width: 350px;
     margin-top: 5vh;
     border-radius: 10px;
 }
@@ -146,8 +148,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 }
 
 .szovegek2 {
-    display: flex;
-    flex-wrap: wrap;
     background-color: #BBDEFB;
     border-radius: 10px;
     margin-left: auto;
@@ -246,10 +246,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     text-align: center;
 }
 
-.asder {
-    margin-top: 10px;
-}
-
 .gonb {
     text-decoration: none;
 }
@@ -306,7 +302,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     transition: 0.5s all ease;
 }
 
-.unselectable {
+p {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -321,3 +317,67 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     color: white;
 }   
 
+.terkepek {
+    display: flex;
+    gap: 10vw;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    height: 35vh;
+    width: 40vw;
+}
+
+.terkephelye {
+    height: 35vh;
+    width: 40vw;
+}
+
+.terkepszovegek {
+    display: flex;
+    justify-content: center;
+    gap: 15vw;
+}
+
+.terkepsz {
+    width: 35vw;
+    text-align: justify;
+    background-color: #BBDEFB;
+    padding: 2vh;
+    border-radius: 10px;
+}
+
+.terkepkisszovz {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.terkepkisszovz>p {
+    margin-top: 1vh;
+    width: 40vw;
+    font-size: 15px;
+    text-align: center;
+}
+
+.idopontok {
+    display: flex;
+    justify-content: center;
+    gap: 40vw;
+    margin-top: 10px;
+}
+
+
+.terkephelye2 {
+    background-color: green;
+    height: 50vh;
+    width: 40vw;
+    border-radius: 20px;
+}
+
+.epuletek {
+    width: 40vw;
+    height: 50vh;
+    border-radius: 20px;
+}

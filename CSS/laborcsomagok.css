@@ -8,10 +8,18 @@
 }
 
 html, body {
+    font-size: 100%;
     background-color: #E2F2FD;
     overflow: scroll;
     scrollbar-width: none;
     height: 100%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
 }
 
 body {
@@ -27,7 +35,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     min-width: 350px;
     width: 100%;
     height: 40vh;
-    background-image: url(../IMG/Fazsomkek-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -36,6 +43,8 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     padding: 5vh;
     width: 100%;
     display: flex; 
+    align-items: center;
+    background-color: #1976D2;
 }
 
 .fejlecelem {
@@ -89,6 +98,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     font-weight: 700;
     margin-top: 4vh;
     font-variant: small-caps;   
+    margin-bottom: 4vh;
 }
 
 .bemutatkozas {
@@ -110,6 +120,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     margin-left: auto;
     margin-right: auto;
     height: 45vh;
+    width: 350px;
     margin-top: 5vh;
     border-radius: 10px;
 }
@@ -146,8 +157,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 }
 
 .szovegek2 {
-    display: flex;
-    flex-wrap: wrap;
     background-color: #BBDEFB;
     border-radius: 10px;
     margin-left: auto;
@@ -246,10 +255,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     text-align: center;
 }
 
-.asder {
-    margin-top: 10px;
-}
-
 .gonb {
     text-decoration: none;
 }
@@ -259,21 +264,20 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     margin-left: auto;
     margin-right: auto;
     background-color: #1976D2;
-    border: 1px solid transparent;
+    border: none;
     border-radius: 30px;
     font-size: 20px;
     padding: 1vh;
     color: white;
-    margin-bottom: 5px;
-    transition: 0.5s all ease;
+    border: 1px solid transparent;
+    transition: all 0.5s ease;
 }
 
 .idopont:hover {
-    text-decoration: none;
     background-color: transparent;
+    text-decoration: none;
     color: #1976D2;
     border: 1px solid #1976D2;
-
 }
 
 .email {
@@ -319,5 +323,71 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     margin-top: 10px;
     margin-left: 10px;
     color: white;
-}   
+}
 
+.kartya {
+    height: 350px;
+    background: rgb(187,222,251);
+    background: linear-gradient(0deg, rgba(187,222,251,1) 0%, rgba(144,202,249,1) 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.kartyacim {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.kartyaszov {
+    padding: 0.5vh;
+    text-align: center;
+}
+
+.ar {
+    font-size: 1.3rem;
+}
+
+.kartyaalja {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 500px) {
+    .kartyak {
+        flex-direction: column;
+    }
+    .kartya {
+        min-width: fit-content;
+    }
+
+    .idopont {
+        height: 5vh;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .kartyacim {
+        font-size: 20px;
+    }
+
+    .kartya {
+        font-size: 15px;
+        height: 400px;
+    }
+
+    .idopont {
+        font-size: 15px;
+    }
+}

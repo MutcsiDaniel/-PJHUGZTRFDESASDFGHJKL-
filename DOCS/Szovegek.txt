@@ -18,6 +18,35 @@ A laborunkban ivóvíz- és talajminták vizsgálatát végezzük, hogy meghatá
 Gyógyszerek és vegyületek elemzése
 Farmakológiai laborunkban gyógyszerminták hatóanyagtartalmát és tisztaságát ellenőrizzük, hogy biztosítsuk a termékek minőségét és biztonságát.
 
+1. Hormon- és enzimvizsgálatok
+Laborunkban részletes hormonális és enzimatikus elemzéseket végzünk, amelyek segítenek az endokrin rendszer működésének feltérképezésében, például pajzsmirigy-, mellékvese- és reproduktív hormonok szintjének meghatározásában.
+
+2. Immunológiai tesztek
+Speciális immunológiai vizsgálatokkal mérjük a szervezet védekezőképességét, beleértve az autoimmun betegségek és gyulladásos folyamatok felismerését, valamint az immunrendszer válaszainak elemzését.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Hormon- és enzimvizsgálatok
+Laborunkban részletes hormonális és enzimatikus elemzéseket végzünk, amelyek segítenek az endokrin rendszer működésének feltérképezésében, például pajzsmirigy-, mellékvese- és reproduktív hormonok szintjének meghatározásában.
+
+2. Immunológiai tesztek
+Speciális immunológiai vizsgálatokkal mérjük a szervezet védekezőképességét, beleértve az autoimmun betegségek és gyulladásos folyamatok felismerését, valamint az immunrendszer válaszainak elemzését.
+
+3. Toxikológiai elemzések
+Laboratóriumunk különféle toxikológiai vizsgálatokat kínál, amelyek segítenek azonosítani a szervezetben felhalmozódott káros anyagokat, például nehézfémeket, peszticideket vagy drogmaradványokat.
+
+4. Táplálkozási és anyagcsere-vizsgálatok
+A laborunkban elérhető elemzések segítségével meghatározható a szervezet vitamin- és ásványianyag-szintje, valamint az anyagcsere-folyamatok hatékonysága, támogatva az egészséges táplálkozási szokások kialakítását.
+
+5. Biológiai markerek elemzése
+Modern diagnosztikai módszerekkel különböző biomarkereket vizsgálunk, amelyek segítenek a krónikus betegségek, például a szív- és érrendszeri problémák vagy daganatos elváltozások korai felismerésében.
+
+6. Orvosi eszközök és implantátumok sterilizációs vizsgálata
+A laboratóriumunkban orvosi eszközök, implantátumok és egyéb sterilizált anyagok tisztaságát ellenőrizzük, biztosítva a fertőzésmentes alkalmazást a betegellátás során.
+
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Bemutatkozás:
@@ -147,7 +176,7 @@ Világos kék: BBDEFB
 4. : 64B5F6
 5.: 42A5F5
 6.: 2196F3
-7.: 1E88E5
+7.: 1E88E5  
 8. : 1976D2
 9. : 1565CO
 10. : 0D47A1
