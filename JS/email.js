@@ -5,6 +5,8 @@ function ellenorizEmail() {
 
     if (emailMinta.test(emailInput)) {
         eredmeny.textContent = "Sikeres feliratkozás!";
+        eredmeny.classList.add("latszik")
+        
     } else {
         eredmeny.textContent = "Hibás email formátum!";
     }

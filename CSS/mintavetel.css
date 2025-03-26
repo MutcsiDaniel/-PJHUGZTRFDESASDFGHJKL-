@@ -344,8 +344,9 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 
 #submit {
     margin-bottom: 0;
+    background: linear-gradient(90deg, rgba(180,58,169,1) 0%, rgba(29,146,253,1) 50%, rgba(252,69,245,1) 100%);
+    background-size: 200%;
     margin-top: 5px;
-    background-color: #1976D2;
     border: 1px solid transparent;
     font-size: 15px;
     padding: 1vh;
@@ -390,17 +391,19 @@ iframe {
     display: flex;
     justify-content: center;
     gap: 15vw;
+    color: white;
 }
 
 .terkepsz {
     width: 35vw;
-    text-align: justify;
-    background-color: #BBDEFB;
+    text-align: justify;    
+    color: white;
     padding: 2vh;
     border-radius: 10px;
 }
 
 .terkepkisszovz {
+    color: white;
     display: flex;
     justify-content: center;
     gap: 10vw;
@@ -422,7 +425,6 @@ iframe {
 
 
 .terkephelye2 {
-    background-color: green;
     height: 50vh;
     width: 40vw;
     border-radius: 20px;
