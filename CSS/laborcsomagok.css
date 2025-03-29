@@ -432,7 +432,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
         min-width: fit-content;
     }
 
-    .idopont {
+    .idopont, .idopont::after {
         height: 5vh;
         font-size: 15px;
     }
@@ -449,7 +449,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
         height: 400px;
     }
 
-    .idopont {
+    .idopont, .idopont::after {
         font-size: 15px;
     }
 }
