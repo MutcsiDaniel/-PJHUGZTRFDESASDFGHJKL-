@@ -472,14 +472,29 @@ input:focus {
     gap: 11vw;
 }
 
+.sor3 {
+    text-align: left;
+}
+
 .oszlop {
     text-align: center;
-    width: 200px;
+    width: 10vw;
+    color: white;
 }
+
+.oszlop2 {
+    display: flex;
+    text-align: center;
+    width: 10vw;
+    color: white;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
 
 .input {
     position: relative;
-    width: 200px;
+    width: 10vw;
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.274);
     border-radius: 20px;
@@ -503,15 +518,3 @@ input:focus {
     margin-bottom: 0;
 }
 
-select, option {
-    color: white;
-    text-align: center;
-    border: none;
-    border-radius: 10px;
-    padding: 2px;
-    background-color: transparent;
-}
-
-option:hover {
-    background-color: transparent;
-}
