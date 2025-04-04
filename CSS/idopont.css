@@ -445,11 +445,13 @@ form {
     background-color: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.116);
-    width: 30vw;
+    width: 45vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 500px;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+    height: fit-content     ;
 }
 
 form>input {
@@ -476,6 +478,12 @@ input:focus {
     text-align: left;
 }
 
+.sor4 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
 .oszlop {
     text-align: center;
     width: 10vw;
@@ -483,14 +491,21 @@ input:focus {
 }
 
 .oszlop2 {
-    display: flex;
-    text-align: center;
-    width: 10vw;
+    border: 1px solid red;
+    width: 14vw;
     color: white;
     padding-left: 10px;
     font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
 }
 
+.oszlopsz{
+    margin-top: 15px;
+    margin-left: 10px;
+}
 
 .input {
     position: relative;
@@ -502,6 +517,7 @@ input:focus {
     padding-left: 10px;
     color: white;
 }
+
 
 .laccik {
     opacity: 1;
