@@ -517,6 +517,11 @@ input:focus {
     color: white;
 }
 
+.terkep {
+    width: 100%;
+    border: 1px solid red;
+    height: 100px;
+}
 
 .laccik {
     opacity: 1;
