@@ -488,7 +488,7 @@ input:focus {
 }
 
 .oszlop {
-    text-align: center;
+    display: flex;
     width: 10vw;
     color: white;
 }
@@ -501,7 +501,7 @@ input:focus {
     display: flex;
     align-items: center;
     justify-content: left;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .oszlopsz{
@@ -546,25 +546,46 @@ iframe {
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     form {
-        width: 90vw;
+        width: 95vw;
         font-size: 10px;
     }
 
-    
-
     p {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .input {
+        width: 30vw;
+    }
+    .oszlop2 {
+        width: 40vw;
+        overflow-y: hidden;
+        padding: none;
+    }
+
+    .oszlopsz {
+        margin-top: 0;
+    }
+
+    .oszlop {
+
+        width: 30vw;
+    }
+
+    .kiscim {
         width: 20vw;
     }
 
-    .sor4 {
-        gap: 40px;
-        overflow-wrap: normal;
-        flex-wrap: wrap;
+    .sor {
+        gap: 10vw;
+    }
+
+}
+
+@media (max-width: 400px) {
+    form {
+        width: 100%;
     }
 }
