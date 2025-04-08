@@ -552,12 +552,19 @@ iframe {
         font-size: 10px;
     }
 
+    
+
     p {
         font-size: 10px;
     }
 
+    .input {
+        width: 20vw;
+    }
+
     .sor4 {
-        gap: 20px;
+        gap: 40px;
+        overflow-wrap: normal;
         flex-wrap: wrap;
     }
 }
