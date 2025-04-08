@@ -251,6 +251,9 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 }
 
 .idopont {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     padding: 10px;
     border: none;
@@ -268,7 +271,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 }
   
 .idopont::after {
-    content: "Foglaljon időpontot!";
+    content: "Elküldés";
     position: absolute;
     z-index: 11;
     width: 100%;
@@ -315,7 +318,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 }
 
 .idopont:hover::after {
-    content: "Foglaljon időpontot!";
+    content: "Elküldés";
     opacity: 0;
 }
 
@@ -519,8 +522,7 @@ input:focus {
 
 .terkep {
     width: 100%;
-    border: 1px solid red;
-    height: 100px;
+    height: 300px;
 }
 
 .laccik {
@@ -531,6 +533,11 @@ input:focus {
     opacity: 0;
 }
 
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
 .kiscim {
     color: white;
     margin-left: 10px;
@@ -538,3 +545,19 @@ input:focus {
     margin-bottom: 0;
 }
 
+
+@media (max-width: 1200px) {
+    form {
+        width: 90vw;
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .sor4 {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
