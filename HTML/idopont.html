@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/idopont.css">
     <link rel="shortcut icon" href="../ICON/flask.svg" type="image/x-icon">
     <title>Időpontfoglalás</title>
 </head>
+
 <body>
     <header class="fejlec" id="osszecsukhato">
         <div class="navbar">
@@ -16,118 +19,156 @@
             <a href="laborcsomagok.html" class="fejlecelem ">Laborcsomagok</a>
             <a href="szolgaltatas.html" class="fejlecelem ">Szolgáltatásaink</a>
         </div>
+    </header>
+    <h2 class="alcim">Időpontfoglalás</h2>
 
-        <h2 class="alcim">Időpontfoglalás</h2>
-        
-        <div class="contaier">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <form action="">
-                        <div class="sor">
-                            <div class="oszlop">
-                                <p class="kiscim">Vezetéknév</p>
-                            </div>
-                            <div class="oszlop">
-                                <p class="kiscim">Keresztnév</p>
-                            </div>
+    <div class="contaier">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <form>
+                    <div class="sor">
+                        <div class="oszlop">
+                            <p class="kiscim">Vezetéknév</p>
                         </div>
-                            <div class="sor">
-                                <input type="text" name="" class="veznev input" id="veznev" required>
-                                <input type="text" name="" class="input" id="kernev" required>
-                            </div>
-                        <div class="sor">
-                            <div class="oszlop">
-                                <p class="kiscim">Telefon</p>
-                            </div>
-                            <div class="oszlop">
-                                <p class="kiscim">E-mail cím</p>
-                            </div>
+                        <div class="oszlop">
+                            <p class="kiscim">Keresztnév</p>
                         </div>
-                            <div class="sor">
-                                <input type="text" name="" class="veznev input" id="telefon" required>
-                                <input type="email" name="" class="input" id="emaill" required>
-                            </div>
+                    </div>
+                    <div class="sor">
+                        <input type="text" name="veznev" class="veznev input" id="veznev" required>
+                        <input type="text" name="kernev" class="input" id="kernev" required>
+                    </div>
+                    <div class="sor">
+                        <div class="oszlop">
+                            <p class="kiscim">Telefon</p>
+                        </div>
+                        <div class="oszlop">
+                            <p class="kiscim">E-mail cím</p>
+                        </div>
+                    </div>
+                    <div class="sor">
+                        <input type="text" name="telefon" class="veznev input" id="telefon" required>
+                        <input type="email" name="email" class="input" id="emaill" required>
+                    </div>
 
-                            <div class="sor3">
-                                <div class="oszlop">
-                                    <p class="kiscim">Időpontfoglalás oka</p>
-                                </div>
-                            </div>
+                    <div class="sor3">
+                        <div class="oszlop">
+                            <p class="kiscim">Időpontfoglalás oka</p>
+                        </div>
+                    </div>
 
-                            <br>
+                    <br>
 
-                            <div class="sor4">
-                                <div class="oszlop2"><input type="radio" name="Laborcsomag" id="laborcs"><p class="oszlopsz">Laborcsomag</p></div>
-                                <div class="oszlop2"><input type="checkbox" name="Genetikai" id="genetika"> <p class="oszlopsz">Genetikai Elemző Csomag</p></div>
-                                <div class="oszlop2"><input type="checkbox" name="Genetikai" id="vervizs"> <p class="oszlopsz">Vérvizsgálat</p></div>
-                            </div>
+                    <div class="sor4">
+                        <div class="oszlop2"><input type="radio" name="Laborcsomag" id="laborcs">
+                            <p class="oszlopsz">Laborcsomag</p>
+                        </div>
+                        <div class="oszlop2"><input type="checkbox" name="Genetikai" id="genetika">
+                            <p class="oszlopsz">Genetikai Elemző Csomag</p>
+                        </div>
+                        <div class="oszlop2"><input type="checkbox" name="Genetikai" id="vervizs">
+                            <p class="oszlopsz">Vérvizsgálat</p>
+                        </div>
+                    </div>
 
-                            <div class="sor4">
-                                <div class="oszlop2"><input type="radio" name="Laborcsomag" id="szolgalt"><p class="oszlopsz">Szolgáltatás</p></div>
-                                <div class="oszlop2"><input type="checkbox" name="Genetikai" id="alapegesz"> <p class="oszlopsz">Alap Egészségügyi Szűrőcsomag</p></div>
-                                <div class="oszlop2"><input type="checkbox" name="Genetikai" id="mikroB"> <p class="oszlopsz">Mikrobiológiai elemzés</p></div>
-                            </div>
+                    <div class="sor4">
+                        <div class="oszlop2"><input type="radio" name="Laborcsomag" id="szolgalt">
+                            <p class="oszlopsz">Szolgáltatás</p>
+                        </div>
+                        <div class="oszlop2"><input type="checkbox" name="Genetikai" id="alapegesz">
+                            <p class="oszlopsz">Alap Egészségügyi Szűrőcsomag</p>
+                        </div>
+                        <div class="oszlop2"><input type="checkbox" name="Genetikai" id="mikroB">
+                            <p class="oszlopsz">Mikrobiológiai elemzés</p>
+                        </div>
+                    </div>
 
-                            <div class="sor4">
-                                <div class="oszlop2"><input type="radio" name="Laborcsomag" id="mind2"><p class="oszlopsz">Mindkettő</p></div>
-                                <div class="oszlop2"><input type="checkbox" name="Genetikai" id="diagnosztika"> <p class="oszlopsz">Diagnosztikai Csomag</p></div>
-                                <div class="oszlop2"><input type="checkbox" name="Genetikai" id="genetikaiV"> <p class="oszlopsz">Genetikai vizsgálat</p></div>
-                            </div>
-                            
-                            <div class="sor4">
-                                <div class="oszlop2"></div>
-                                <div class="oszlop2"><input type="checkbox" name="Genetikai" id="sportolo"> <p class="oszlopsz">Sportolói Teljesítménycsomag</p></div>
-                                <div class="oszlop2"><input type="checkbox" name="Genetikai" id="kornyezet"> <p class="oszlopsz">Környezeti minta elemzése</p></div>
-                            </div>
+                    <div class="sor4">
+                        <div class="oszlop2"><input type="radio" name="Laborcsomag" id="mind2">
+                            <p class="oszlopsz">Mindkettő</p>
+                        </div>
+                        <div class="oszlop2"><input type="checkbox" name="Genetikai" id="diagnosztika">
+                            <p class="oszlopsz">Diagnosztikai Csomag</p>
+                        </div>
+                        <div class="oszlop2"><input type="checkbox" name="Genetikai" id="genetikaiV">
+                            <p class="oszlopsz">Genetikai vizsgálat</p>
+                        </div>
+                    </div>
 
-                            <div class="sor4">
-                                <div class="oszlop2"></div>
-                                <div class="oszlop2"><input type="checkbox" name="Genetikai" id="elelmiszer"> <p class="oszlopsz">Élelmiszerbiztonsági Csomag</p></div>
-                                <div class="oszlop2"><input type="checkbox" name="Genetikai" id="elelmiszer2"> <p class="oszlopsz">Élelmiszerbiztonsági vizsgálat </p></div>
-                            </div>
-                            <div class="sor4">
-                                <div class="oszlop2"></div>
-                                <div class="oszlop2"><input type="checkbox" name="Genetikai" id="kornyezet2"> <p class="oszlopsz">Környezeti Vizsgálati Csomag</p></div>
-                                <div class="oszlop2"><input type="checkbox" name="Genetikai" id="gyogyszer"> <p class="oszlopsz">Gyógyszerek és vegyületek elemzése </p></div>
-                            </div>
-                            <div class="sor4">
-                                <div class="oszlop2"></div>
-                                <div class="oszlop2"></div>
-                                <div class="oszlop2"><input type="checkbox" name="Genetikai" id="hormon"> <p class="oszlopsz">Hormon- és enzimvizsgálat</p></div>
-                            </div>
-                            <div class="sor4">
-                                <div class="oszlop2"></div>
-                                <div class="oszlop2"></div>
-                                <div class="oszlop2"><input type="checkbox" name="Genetikai" id="immunologia"> <p class="oszlopsz">Immunológiai tesztek</p></div>
-                            </div>
-                            <div class="sor3">
-                                <div class="oszlop">
-                                    <p class="kiscim">Helyszín kiválasztása</p>
-                                </div>
-                            </div>
-                            <div class="sor4">
-                                <div class="oszlop2"><input type="radio" name="Laborcsomag" id="aEpulet"><p class="oszlopsz">"A" épület</p></div>
-                                <div class="oszlop2"></div>
-                                <div class="oszlop2"></div>
-                            </div>
-                            <div class="sor4">
-                                <div class="oszlop2"><input type="radio" name="Laborcsomag" id="bEpulet"><p class="oszlopsz">"B" épület</p></div>
-                                <div class="oszlop2"></div>
-                                <div class="oszlop2"></div>
-                            </div>
+                    <div class="sor4">
+                        <div class="oszlop2"></div>
+                        <div class="oszlop2"><input type="checkbox" name="Genetikai" id="sportolo">
+                            <p class="oszlopsz">Sportolói Teljesítménycsomag</p>
+                        </div>
+                        <div class="oszlop2"><input type="checkbox" name="Genetikai" id="kornyezet">
+                            <p class="oszlopsz">Környezeti minta elemzése</p>
+                        </div>
+                    </div>
 
-                            <div class="terkep" id="terkepz">
-<!--                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380.9981644354839!2d19.205078899180652!3d50.02934769367189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716be32014dffa1%3A0xe8e173d6821a53c5!2sMemorial%20and%20Museum%20Auschwitz-Birkenau!5e0!3m2!1shu!2shu!4v1742369296763!5m2!1shu!2shu" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="sor4">
+                        <div class="oszlop2"></div>
+                        <div class="oszlop2"><input type="checkbox" name="Genetikai" id="elelmiszer">
+                            <p class="oszlopsz">Élelmiszerbiztonsági Csomag</p>
+                        </div>
+                        <div class="oszlop2"><input type="checkbox" name="Genetikai" id="elelmiszer2">
+                            <p class="oszlopsz">Élelmiszerbiztonsági vizsgálat </p>
+                        </div>
+                    </div>
+                    <div class="sor4">
+                        <div class="oszlop2"></div>
+                        <div class="oszlop2"><input type="checkbox" name="Genetikai" id="kornyezet2">
+                            <p class="oszlopsz">Környezeti Vizsgálati Csomag</p>
+                        </div>
+                        <div class="oszlop2"><input type="checkbox" name="Genetikai" id="gyogyszer">
+                            <p class="oszlopsz">Gyógyszerek és vegyületek elemzése </p>
+                        </div>
+                    </div>
+                    <div class="sor4">
+                        <div class="oszlop2"></div>
+                        <div class="oszlop2"></div>
+                        <div class="oszlop2"><input type="checkbox" name="Genetikai" id="hormon">
+                            <p class="oszlopsz">Hormon- és enzimvizsgálat</p>
+                        </div>
+                    </div>
+                    <div class="sor4">
+                        <div class="oszlop2"></div>
+                        <div class="oszlop2"></div>
+                        <div class="oszlop2"><input type="checkbox" name="Genetikai" id="immunologia">
+                            <p class="oszlopsz">Immunológiai tesztek</p>
+                        </div>
+                    </div>
+                    <div class="sor3">
+                        <div class="oszlop">
+                            <p class="kiscim">Helyszín kiválasztása</p>
+                        </div>
+                    </div>
+                    <div class="sor4">
+                        <div class="oszlop2"><input type="radio" name="Laborcsomag" id="aEpulet">
+                            <p class="oszlopsz">"A" épület</p>
+                        </div>
+                        <div class="oszlop2"></div>
+                        <div class="oszlop2"></div>
+                    </div>
+                    <div class="sor4">
+                        <div class="oszlop2"><input type="radio" name="Laborcsomag" id="bEpulet">
+                            <p class="oszlopsz">"B" épület</p>
+                        </div>
+                        <div class="oszlop2"></div>
+                        <div class="oszlop2"></div>
+                    </div>
+
+                    <div class="terkep" id="terkepz">
+                        <!--                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380.9981644354839!2d19.205078899180652!3d50.02934769367189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716be32014dffa1%3A0xe8e173d6821a53c5!2sMemorial%20and%20Museum%20Auschwitz-Birkenau!5e0!3m2!1shu!2shu!4v1742369296763!5m2!1shu!2shu" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202.15600893748862!2d14.483567870064133!3d35.83683604980013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130e5a72808b3e23%3A0xb70cd39b5f96da83!2sLidl!5e0!3m2!1shu!2shu!4v1742369410269!5m2!1shu!2shu" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-                            </div>
+                    </div>
 
-                            <button type="submit" onclick="return validateForm()" class="idopont">Elküldés</button>
+                    <button type="submit" onclick="return validateForm()" class="idopont">Elküldés</button>
 
-                            <p id="form-message"></p>
-                    </form>
-                </div>
+                    <p id="form-message"></p>
+                </form>
             </div>
         </div>
+    </div>
 
 
     <footer class="footer">
@@ -138,15 +179,17 @@
                     <p class="ikonsz ">+36208872572</p>
                 </div>
                 <div class="szekcio">
-                    <a href="https://facebook.com" target="_blank" class="ikonhref"><img src="../ICON/facebook-app-symbol.svg" alt="telefon" draggable="false" class="icon2"></a>
+                    <a href="https://facebook.com" target="_blank" class="ikonhref"><img
+                            src="../ICON/facebook-app-symbol.svg" alt="telefon" draggable="false" class="icon2"></a>
                     <p class="ikonsz ">NyxInnovations</p>
                 </div>
                 <div class="szekcio">
-                    <a href="mailto:nyxinnovations@nix.hu"  class="ikonhref"><img src="../ICON/arroba.svg" alt="telefon" draggable="false" class="icon2"></a>
+                    <a href="mailto:nyxinnovations@nix.hu" class="ikonhref"><img src="../ICON/arroba.svg" alt="telefon"
+                            draggable="false" class="icon2"></a>
                     <p class="ikonsz ">nyxinnovations@nyx.hu</p>
                 </div>
             </div>
-            
+
             <div class="email">
                 <input type="email" name="email" id="email" placeholder="E-mail cím megadása">
                 <button type="submit" id="submit" onclick="ellenorizEmail()">Elküldés</button>
@@ -154,12 +197,15 @@
             </div>
         </div>
 
-        <p class="copy">&copy Nyx Innovations - 2025</p>
+        <p class="copy">&copy; Nyx Innovations - 2025</p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
     <script src="../JS/email.js"></script>
     <script src="../JS/idopont.js"></script>
 </body>
+
 </html>
