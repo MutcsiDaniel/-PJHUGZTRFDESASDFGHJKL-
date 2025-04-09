@@ -1,55 +1,29 @@
-# Luckey Kávézó
+# Laboratórium Readme 
 
-## címsor 2
+# Projekt neve: Magánlabor Projekt
+## Weboldal neve: Nyx Innovations
 
-# Felsorolások
+# Munkafelosztás
+Mucsi Dániel (Projektfelelős) - html, css, javascript, Trello kezelése, Képek Generálása, Trello kezelése, Dizájn terv kigondolása 
 
-## Számozatlan
+Szélpál Máté (Projekttag)- Képek keresése, Figma kezelése, Trello kezelése, Képek generálása, színek keresése 
 
-- ez egy 
-- számozatlan
-- felsorolás
+# Képek, Ikonok forrása:
+## [Pixabay](https://pixabay.com/hu/)
+## Képek Generálása : 
+ChatGPT
+##  [Unsplash](https://unsplash.com/) 
+##  [Flaticon](https://www.flaticon.com/) 
 
-## Számozott
 
-1. ez
-2. már 
-3. számozott felsorolás
+# Szövegek generálása :
+ ChatGPT
 
-## Automatikus számozás
+# Helyek keresése:
+ Google Maps
 
-1. itt most
-1. automatikus
-1. ez is lol 
 
-## Példakód
+# Egyéb linkek
 
-### Soron belüli
-
-A `<br>` a sortörés jele
-
-### Kódblokk
-
-```css
-body {
-    background-color: blue;
-}
-```
-
-```js
-let alma = 1
-```
-
-## Kiemelés
-
-_Ez a szöveg dőlt_, __míg ez a szöveg félkövér__
-
-## Táblázat
-
-|A   |B  |C  |
-|---:|:-:|--:|
-|Nagy |Lajos|Projektfelelős|
-
-## Linkek
-
-[YoutBob](https://youtube.com)
+[Trello](https://trello.com/b/w5dTTvF0/projktemunkakdefeizpfgfowefzfgf) 
+[Figma](https://www.figma.com/design/smKJSreVOLyZktae9UfYUO/Prkojekt-munka?t=n9eAgVohcL3ik17v-0)
