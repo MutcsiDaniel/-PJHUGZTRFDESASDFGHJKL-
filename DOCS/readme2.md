@@ -1,4 +1,4 @@
-# Laboratórium Redme 
+# Laboratórium Readme 
 
 
 # Munkafelosztás
@@ -19,9 +19,3 @@ ChatGPT
 
 # Helyek keresése:
  Google Maps
-
-# dani egy kakifej
-Azért
-safasfnjy fasza
-
-asd
