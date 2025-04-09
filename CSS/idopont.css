@@ -81,14 +81,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     text-decoration-thickness: 3px;
 }
 
-.cim {
-    color: white;
-    margin-top: 8vh;
-    font-variant: small-caps;
-    text-align: center;
-    font-weight: 900;
-}
-
 .alcim {
     margin-left: 2vw;
     font-size: 40px;
@@ -98,114 +90,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     font-variant: small-caps;   
 }
 
-.bemutatkozas {
-    width: fit-content;
-    margin-top: 5vh;
-    background-color: #BBDEFB;
-    padding: 4vh;
-    border-radius: 10px;
-}
-
-.bemutatkozoSzoveg {
-    text-align: justify;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.kep {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 45vh;
-    width: 350px;
-    margin-top: 5vh;
-    border-radius: 10px;
-}
-
-.kepsz {
-    text-align: center;
-}
-
-.szovegek {
-    background-color: #BBDEFB;
-    border-radius: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 2vh;
-    height: fit-content;
-    width: fit-content;
-    overflow: scroll;
-    scrollbar-width: none;
-    opacity: 0;
-    visibility: hidden;
-    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out, padding 0.5s ease-in-out, visibility 0.5s;
-}
-
-.szovegek::-webkit-scrollbar,.szovegek2::-webkit-scrollbar {
-    display: none; 
-  }
-
-.szovegek.show {
-    max-height: 500px; 
-    opacity: 1;
-    visibility: visible;
-    padding: 2vh; 
-}
-
-.szovegek2 {
-    background-color: #BBDEFB;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 2vh;
-    width: 20vw;
-    max-height: 150px;
-    min-width: 170px;
-    overflow: scroll;
-    scrollbar-width: none;
-    opacity: 0;
-    visibility: hidden;
-    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out, padding 0.5s ease-in-out, visibility 0.5s;
-}
-
-.szovegek2.show {
-    max-height: 500px; 
-    opacity: 1;
-    visibility: visible;
-    padding: 2vh; 
-}
-
-.forog {
-    transform: rotate(180deg);
-}
-
-.kisSzov {
-    font-weight: 600;
-    width: 50vw;
-    height: fit-content;
-}
-
-.kisSzov2 {
-    font-weight: 600;
-    width: fit-content;
-}
-
-.img-fluid {
-    margin-top: 5vh;
-    border-radius: 10px;
-}
-
-.dropbtn {
-    background-color: transparent;
-    border: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 10px;
-    cursor: pointer;
-}
 
 .footer {
     position: relative;
@@ -251,6 +135,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 }
 
 .idopont {
+    margin-top: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -372,67 +257,6 @@ p {
     color: white;
 }   
 
-.terkepek {
-    display: flex;
-    gap: 10vw;
-    align-items: center;
-    justify-content: center;
-}
-
-.terkephelye {
-    background-color: green;
-    height: 35vh;
-    width: 40vw;
-}
-
-.terkepszovegek {
-    display: flex;
-    justify-content: center;
-    gap: 15vw;
-}
-
-.terkepsz {
-    width: 35vw;
-    text-align: justify;
-    background-color: #BBDEFB;
-    padding: 2vh;
-    border-radius: 10px;
-}
-
-.terkepkisszovz {
-    display: flex;
-    justify-content: center;
-    gap: 10vw;
-}
-
-.terkepkisszovz>p {
-    margin-top: 1vh;
-    width: 40vw;
-    font-size: 15px;
-    text-align: center;
-}
-
-.idopontok {
-    display: flex;
-    justify-content: center;
-    gap: 40vw;
-    margin-top: 10px;
-}
-
-
-.terkephelye2 {
-    background-color: green;
-    height: 50vh;
-    width: 40vw;
-    border-radius: 20px;
-}
-
-.epuletek {
-    width: 40vw;
-    height: 50vh;
-    border-radius: 20px;
-}
-
 .icon {
     width: 64px;
     height: 64px;
@@ -488,7 +312,7 @@ input:focus {
 }
 
 .oszlop {
-    text-align: center;
+    display: flex;
     width: 10vw;
     color: white;
 }
@@ -501,7 +325,7 @@ input:focus {
     display: flex;
     align-items: center;
     justify-content: left;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .oszlopsz{
@@ -525,14 +349,6 @@ input:focus {
     height: 300px;
 }
 
-.laccik {
-    opacity: 1;
-}
-
-.nemlaccik {
-    opacity: 0;
-}
-
 iframe {
     width: 100%;
     height: 300px;
@@ -545,26 +361,52 @@ iframe {
     margin-bottom: 0;
 }
 
+#form-message {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     form {
-        width: 90vw;
+        width: 95vw;
         font-size: 10px;
     }
 
-    
-
     p {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .input {
+        width: 30vw;
+    }
+    .oszlop2 {
+        width: 40vw;
+        overflow-y: hidden;
+        padding: none;
+    }
+
+    .oszlopsz {
+        margin-top: 0;
+    }
+
+    .oszlop {
+
+        width: 30vw;
+    }
+
+    .kiscim {
         width: 20vw;
     }
 
-    .sor4 {
-        gap: 40px;
-        overflow-wrap: normal;
-        flex-wrap: wrap;
+    .sor {
+        gap: 10vw;
+    }
+
+}
+
+@media (max-width: 400px) {
+    form {
+        width: 100%;
     }
 }

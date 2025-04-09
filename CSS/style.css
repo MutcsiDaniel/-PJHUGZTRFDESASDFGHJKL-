@@ -5,6 +5,12 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 html, body {
@@ -363,14 +369,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     transition: 0.5s all ease;
 }
 
-.unselectable {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
 
 #emailszov {
     margin-top: 10px;

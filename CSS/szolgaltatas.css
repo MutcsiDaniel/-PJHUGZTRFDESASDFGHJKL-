@@ -81,14 +81,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     text-decoration-thickness: 3px;
 }
 
-.cim {
-    color: white;
-    margin-top: 8vh;
-    font-variant: small-caps;
-    text-align: center;
-    font-weight: 900;
-}
-
 .alcim {
     margin-left: 2vw;
     font-size: 40px;
@@ -96,115 +88,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     margin-top: 4vh;
     color: white;
     font-variant: small-caps;   
-}
-
-.bemutatkozas {
-    width: fit-content;
-    margin-top: 5vh;
-    background-color: #BBDEFB;
-    padding: 4vh;
-    border-radius: 10px;
-}
-
-.bemutatkozoSzoveg {
-    text-align: justify;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.kep {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 45vh;
-    width: 350px;
-    margin-top: 5vh;
-    border-radius: 10px;
-}
-
-.kepsz {
-    text-align: center;
-}
-
-.szovegek {
-    background-color: #BBDEFB;
-    border-radius: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 2vh;
-    height: fit-content;
-    width: fit-content;
-    overflow: scroll;
-    scrollbar-width: none;
-    opacity: 0;
-    visibility: hidden;
-    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out, padding 0.5s ease-in-out, visibility 0.5s;
-}
-
-.szovegek::-webkit-scrollbar,.szovegek2::-webkit-scrollbar {
-    display: none; 
-  }
-
-.szovegek.show {
-    max-height: 500px; 
-    opacity: 1;
-    visibility: visible;
-    padding: 2vh; 
-}
-
-.szovegek2 {
-    background-color: #BBDEFB;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 2vh;
-    width: 20vw;
-    max-height: 150px;
-    min-width: 170px;
-    overflow: scroll;
-    scrollbar-width: none;
-    opacity: 0;
-    visibility: hidden;
-    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out, padding 0.5s ease-in-out, visibility 0.5s;
-}
-
-.szovegek2.show {
-    max-height: 500px; 
-    opacity: 1;
-    visibility: visible;
-    padding: 2vh; 
-}
-
-.forog {
-    transform: rotate(180deg);
-}
-
-.kisSzov {
-    font-weight: 600;
-    width: 50vw;
-    height: fit-content;
-}
-
-.kisSzov2 {
-    font-weight: 600;
-    width: fit-content;
-}
-
-.img-fluid {
-    margin-top: 5vh;
-    border-radius: 10px;
-}
-
-.dropbtn {
-    background-color: transparent;
-    border: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 10px;
-    cursor: pointer;
 }
 
 .footer {
@@ -350,14 +233,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     transition: 0.5s all ease;
 }
 
-p {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
 
 #emailszov {
     margin-top: 10px;
@@ -365,66 +240,6 @@ p {
     color: white;
 }   
 
-.terkepek {
-    display: flex;
-    gap: 10vw;
-    align-items: center;
-    justify-content: center;
-}
-
-.terkephelye {
-    background-color: green;
-    height: 35vh;
-    width: 40vw;
-}
-
-.terkepszovegek {
-    display: flex;
-    justify-content: center;
-    gap: 15vw;
-}
-
-.terkepsz {
-    width: 35vw;
-    text-align: justify;
-    background-color: #BBDEFB;
-    padding: 2vh;
-    border-radius: 10px;
-}
-
-.terkepkisszovz {
-    display: flex;
-    justify-content: center;
-    gap: 10vw;
-}
-
-.terkepkisszovz>p {
-    margin-top: 1vh;
-    width: 40vw;
-    font-size: 15px;
-    text-align: center;
-}
-
-.idopontok {
-    display: flex;
-    justify-content: center;
-    gap: 40vw;
-    margin-top: 10px;
-}
-
-
-.terkephelye2 {
-    background-color: green;
-    height: 50vh;
-    width: 40vw;
-    border-radius: 20px;
-}
-
-.epuletek {
-    width: 40vw;
-    height: 50vh;
-    border-radius: 20px;
-}
 
 .icon {
     width: 64px;
