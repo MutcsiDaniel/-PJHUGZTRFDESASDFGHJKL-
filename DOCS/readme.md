@@ -4,7 +4,7 @@
 ## Weboldal neve: Nyx Innovations
 
 # Munkafelosztás
-Mucsi Dániel (Projektfelelős) - html, css, javascript, Trello kezelése, Képek Generálása, Trello kezelése, Dizájn terv kigondolása 
+Mucsi Dániel (Projektfelelős) - html, css, javascript, Trello kezelése, Képek Generálása, Dizájn terv kigondolása 
 
 Szélpál Máté (Projekttag)- Képek keresése, Figma kezelése, Trello kezelése, Képek generálása, színek keresése 
 
