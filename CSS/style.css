@@ -115,7 +115,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 45vh;
+    height: 40vh;
     margin-top: 5vh;
     border-radius: 10px;
 }
